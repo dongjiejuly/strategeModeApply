@@ -1,7 +1,7 @@
-package com.dongjiejuly.strategymodeapply.pay.service.original.impl;
+package com.dongjiejuly.strategymodeapply.pay.strategy_pattern.service.original.impl;
 
 import com.dongjiejuly.strategymodeapply.common.enums.PayCodeEnum;
-import com.dongjiejuly.strategymodeapply.pay.service.original.IPayV1Service;
+import com.dongjiejuly.strategymodeapply.pay.strategy_pattern.service.original.IPayV1Service;
 import org.springframework.stereotype.Service;
 
 @Service

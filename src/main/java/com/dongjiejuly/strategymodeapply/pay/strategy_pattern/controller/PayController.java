@@ -1,11 +1,11 @@
-package com.dongjiejuly.strategymodeapply.pay.controller;
+package com.dongjiejuly.strategymodeapply.pay.strategy_pattern.controller;
 
-import com.dongjiejuly.strategymodeapply.pay.service.original.IPayV1Service;
-import com.dongjiejuly.strategymodeapply.pay.service.strategy.v1.IPayStrategyV1Service;
-import com.dongjiejuly.strategymodeapply.pay.service.strategy.v2.abstractHandler.AbstractPayStrategyHandler;
-import com.dongjiejuly.strategymodeapply.pay.service.strategy.v2.abstractHandler.StrategyFactoryV2;
-import com.dongjiejuly.strategymodeapply.pay.service.strategy.v2.handler.PayStrategyHandler;
-import com.dongjiejuly.strategymodeapply.pay.service.strategy.v2.handler.StrategyFactory;
+import com.dongjiejuly.strategymodeapply.pay.strategy_pattern.service.original.IPayV1Service;
+import com.dongjiejuly.strategymodeapply.pay.strategy_pattern.service.strategy.v1.IPayStrategyV1Service;
+import com.dongjiejuly.strategymodeapply.pay.strategy_pattern.service.strategy.v2.abstractHandler.AbstractPayStrategyHandler;
+import com.dongjiejuly.strategymodeapply.pay.strategy_pattern.service.strategy.v2.abstractHandler.StrategyFactoryV2;
+import com.dongjiejuly.strategymodeapply.pay.strategy_pattern.service.strategy.v2.handler.PayStrategyHandler;
+import com.dongjiejuly.strategymodeapply.pay.strategy_pattern.service.strategy.v2.handler.StrategyFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.GetMapping;
